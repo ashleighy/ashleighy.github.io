@@ -924,20 +924,25 @@ a:hover.tooltips span {
 
 @media screen and (max-width: 800px) {
 .buttonsgroup{
-  padding-right:5px;
+   width:100%;
 }
-.logo{
-  min-height: 70px;
+.buttonss{
+  width:100%;
 }
-.fa{ font-size: 3em; padding: 10px;}
-body{
-  font-size: 18px;
-}
+
 .titlepage h4{
-  font-size: 1.5em;
+  font-size: 1em;
+  top: 9%;
+}
+.titlepage h4 span:before, .titlepage h4 span:after{
+    width: 0;
 }
 h1{
   font-size: 3.5em;
+  top:10%;
+}
+.circle{
+  top:8%;
 }
 } 
 

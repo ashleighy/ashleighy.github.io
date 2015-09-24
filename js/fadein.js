@@ -20,6 +20,9 @@ $(document).ready(function(){
               $(".buttonss").css("background-color","transparent");
               }
 
+              if ($(window).width() < 660) {
+                $(".buttonss").css("background-color","#FCDDDE");
+              }
             if ($(this).scrollTop() >900){
               $(".port").addClass("animate");
               $(".port").css("opacity","1");
