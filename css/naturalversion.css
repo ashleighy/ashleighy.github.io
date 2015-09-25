@@ -86,7 +86,7 @@ margin-bottom: 100px;
 h1{
 	  color: #3b3a36;
   font-family: 'Abril Fatface', serif;
-  font-size: 5em;
+  font-size: 6em;
   font-weight: 400;
   line-height: 64px;
   margin: 0 0 0;
@@ -193,7 +193,7 @@ h4{
     opacity: 0;
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
-    width: 25%;
+    width: 55%;
   }
 
   to {
@@ -207,7 +207,7 @@ keyframes fadeInLeft {
     opacity: 0;
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
-    width: 25%;
+    width: 55%;
   }
 
   to {
@@ -222,6 +222,7 @@ keyframes fadeInLeft {
     opacity: 0;
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
+    width: 55%;
   }
 
   to {
@@ -235,6 +236,7 @@ keyframes fadeInRight {
     opacity: 0;
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
+    width: 55%;
   }
 
   to {
@@ -650,6 +652,7 @@ a:hover.tooltips span {
   position: absolute;
   top: 20px;
   left: 20px;
+  z-index: 99;
 }
 
 .hair:before {
@@ -666,6 +669,7 @@ a:hover.tooltips span {
   position: absolute;
   top: 25px;
   left: 35px;
+  z-index: 99;
 }
 
 .neck {
@@ -920,6 +924,7 @@ a:hover.tooltips span {
 /********************************************************/
 
 @media screen and (max-width: 800px) {
+
 .buttonsgroup{
    width:100%;
 }
@@ -933,18 +938,23 @@ a:hover.tooltips span {
 }
 .titlepage h4 span:before, .titlepage h4 span:after{
     width: 0;
+    animation:none;
 }
+
 h1{
   font-size: 3.5em;
   top:9%;
 }
+
 .circle{
   top:7.5%;
 }
 } 
 
 @media screen and (max-width: 1200px) {
+
 .big{
   max-height: 300px;
 }
+
 } 
