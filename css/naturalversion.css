@@ -634,7 +634,6 @@ a:hover.tooltips span {
   position: absolute;
   top: -15px;
   left: 60px;
-  z-index: 999;
 }
 
 .hair:after {
@@ -651,7 +650,6 @@ a:hover.tooltips span {
   position: absolute;
   top: 20px;
   left: 20px;
-  z-index: 999;
 }
 
 .hair:before {
@@ -668,7 +666,6 @@ a:hover.tooltips span {
   position: absolute;
   top: 25px;
   left: 35px;
-  z-index: 999;
 }
 
 .neck {
@@ -932,17 +929,17 @@ a:hover.tooltips span {
 
 .titlepage h4{
   font-size: 1em;
-  top: 9%;
+  top: 8.5%;
 }
 .titlepage h4 span:before, .titlepage h4 span:after{
     width: 0;
 }
 h1{
   font-size: 3.5em;
-  top:10%;
+  top:9%;
 }
 .circle{
-  top:8%;
+  top:7.5%;
 }
 } 
 
