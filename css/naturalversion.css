@@ -13,6 +13,7 @@ body{
        margin: 0 auto;
 -moz-osx-font-smoothing: grayscale;
 overflow-x: hidden;
+height: 100%;
 }
 
 
@@ -396,7 +397,7 @@ h4{
     right:0px;
     padding:5px 0 0 0;
 	  width: 100%;
-	  min-width: 350px;
+	  min-width: 300px;
 	  margin: 0 auto;
      animation: fadeIn 0.5s ease-in-out 1;
      -webkit-animation: fadeIn 0.5s ease-in-out 1; 
